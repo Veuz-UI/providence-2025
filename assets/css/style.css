@@ -647,9 +647,9 @@ img {
 /* Hello dammam */
 
 .coming-dammam {
-	height: 600px;
+	height: 550px;
 	width: 100%;
-	background-image: url(../img/get-ready-bg.png);
+	background-image: url(../img/pro-bg.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -658,7 +658,7 @@ img {
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: column;
-	padding-top: 180px;
+	padding-top: 120px;
 }
 
 .coming-dammam::after {
@@ -668,7 +668,7 @@ img {
 	content: "";
 	top: 0px;
 	left: 0px;
-	background: #000000de;
+	background: #000000d1;
 }
 
 .coming-dammam-cntnt {
@@ -962,7 +962,7 @@ img {
 	border-radius: 66px;
 	width: 230px;
 	height: 19px;
-	background: #fcce08;
+	background: #c2c519;
 	margin-bottom: 20px;
 	margin-left: 60px;
 }
@@ -995,14 +995,14 @@ img {
 }
 
 .harmounios-box {
-	height: 450px;
+	height: 550px;
 	width: 100%;
 	padding: 5px;
 	background-color: var(--primary-color);
 }
 
 .harmounios-img {
-	height: 390px;
+	height: 100%;
 	width: 100%;
 	overflow: hidden;
 }
@@ -1102,7 +1102,8 @@ img {
 
 .client-logo {
 	height: 100px;
-	width: 100%;
+	width: 250px;
+	margin: auto;
 }
 
 .client-logo img {
@@ -1268,7 +1269,7 @@ img {
 
 .ticket-count {
 	padding: 0px 0px 60px 0px;
-	margin-top: -100px;
+	margin-top: 0px;
 }
 
 .ticket-div {
@@ -1316,14 +1317,13 @@ img {
 	color: var(--white-color);
 	font-weight: 300;
 	font-size: 15px;
-	background-color: #101010;
 	border-radius: 40px;
 	width: fit-content;
 	padding: 8px 15px;
 }
 
 .ticket-red {
-	background-color: #E30048;
+	background-color: var(--primary-color);
 }
 
 .ticket-green {
@@ -1348,7 +1348,7 @@ img {
 	border-radius: 100%;
 	background-color: #101010;
 	position: absolute;
-	top: 59%;
+	top: 67%;
 	right: -20px;
 	z-index: 1;
 }
@@ -1478,6 +1478,42 @@ img {
 	margin-top: 40px;
 	gap: 20px;
 }
+
+.tickt-btn{
+	height: 45px;
+	padding: 0px 20px;
+	border-radius: 50px;
+	background-color: white;
+	color: var(--black-color);
+	border: none;
+}
+
+.tickt-btn a{
+	color: var(--black-color);
+}
+
+.exp-mark{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.exp-mark svg{
+	color: var(--primary-color);
+	font-size: 20px;
+}
+
+
+.ticket-head{
+	font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: var(--white-color);
+    position: relative;
+    text-align: center;
+	margin-top: 60px;
+}
+
 
 /* Tickets */
 /*----------------- tickets ----------------- */
