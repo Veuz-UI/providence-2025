@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonious Kerala</title>
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fonts/webfont/stylesheet.css">
+  <link rel="icon" href="assets/img/fav-icon.png" type="image/p">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="assets/img/fav-icon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.4.0/build/css/intlTelInput.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+  <style>
+    body{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  
+
+
+<div class="inner-banner">
+  <div class="banner-overlay"></div>
+  <div id="navbar">
+    <div class="custom-container">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="">
+          </a>
+          
+        </div>
+        <!-- <div class="header-btns">
+          <a href="select-ticket.html"><button class="primary-btn"><span class="text">Book Now</span><span>Book Now</span></button></a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-container">
+    <div class="inner-banner-content">
+      <div class="breadcrumps">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            - Tickets
+          </li>
+        </ul>
+      </div>
+      <h3>View Ticket</h3>
+    
+    </div>
+  </div>
+</div>
+
+
+<section class="register-main">
+  <div class="custom-container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-xl-9 col-lg-12 " data-aos="fade-up" data-aos-duration="1500">
+        <div class="reg-head">
+          <h4>Primary Contact Details</h4>
+          <!-- <h6 class="red-text">*When adding your phone number, ensure your country area code is entered first, e.g
+            +966 *</h6> -->
+        </div>
+        <div class="form-bg">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="form-box">
+                  <label for="name">Full Name <span>*</span></label>
+                  <input id="name" type="text" placeholder="Full Name" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-box">
+                  <label for="email">Your Email <span>*</span></label>
+                  <input id="email" type="email" placeholder="Your Email" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-box">
+                  <label for="mobile">Mobile Number <span>*</span></label>
+                  <input type="tel" id="phone" placeholder="Enter your mobile number">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="ticket-outer">
+          <h3>Tickets Details</h3>
+         <div class="ticket-box mb-5">
+          <div class="row table-row">
+            <div class="col-lg-4">
+                <p>Red Carpet Single</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <p>QTY-2</p>
+            
+            </div>
+            <div class="col-lg-4 text-end sm-btns">
+              <div class="accordion acc-outer">
+               <button id="success" class="secondary-btn download-btn" type="button"><span><i class="fas fa-download me-1"></i></span>Download </button>
+                
+                  <!-- Collapsible content for tickets -->
+                </div>
+                
+
+              <a href="upgrade-ticket.html" >
+                <button class="secondary-btn upgrade-btn"> <span><i class="fas fa-exchange-alt"></i></span>Upgrade</button>
+              </a>
+            
+            </div>
+          </div>
+          <div id="collapseTickets" class="accordion-content collapseTickets">
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single </div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+               <div class="tickt-descp"><span><i class="fas fa-sort-amount-up"></i></span>Upgraded to Gold Single from Sliver Single</div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+            </div>
+            <div class="row table-row">
+             <div class="col-lg-4">Amritha</div>
+             <div class="col-lg-4 ">amritha@gmail.com</div>
+             <div class="col-lg-4"><button id="success" class="secondary-btn download-btn" type="button"><span><svg class="svg-inline--fa fa-download" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg><!-- <i class="fas fa-download"></i> Font Awesome fontawesome.com --></span>
+               Download </button></div>
+            </div>
+           </div>
+
+          <div class="row table-row">
+            <div class="col-lg-4">
+                <p>VIP Family</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <p>QTY-2</p>
+            
+            </div>
+            <div class="col-lg-4 text-end sm-btns">
+              <button id="success" class="secondary-btn download-btn" type="button"><span><i class="fas fa-download"></i></span>
+                View Ticket </button>
+             
+
+              <a href="upgrade-ticket.html" >
+                <button class="secondary-btn upgrade-btn"> <span><i class="fas fa-exchange-alt"></i></span>Upgrade</button>
+              </a>
+            
+            </div>
+          </div>
+
+          <div class="row table-row">
+            <div class="col-lg-4">
+                <p>VIP Single</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <p>QTY-2</p>
+            
+            </div>
+            <div class="col-lg-4 text-end sm-btns">
+               <button  id="success"class="secondary-btn download-btn" type="button"><span><i class="fas fa-download"></i></span>
+                View Ticket </button>
+            
+
+              <a href="upgrade-ticket.html" >
+                <button class="secondary-btn upgrade-btn"> <span><i class="fas fa-exchange-alt"></i></span>Upgrade</button>
+              </a>
+            
+            </div>
+          </div>
+
+         </div>
+         <div class="ticket-box">
+          <div class="ticket-total-div">
+            <div>
+                <p>Red Carpet Single</p>
+
+            </div>
+            <div >
+              <p class="ticket-amount">SAR. 8,369.00</p>
+            
+            </div>
+           
+          </div>
+          <div class="ticket-total-div">
+            <div>
+                <p>VAT 15% </p>
+
+            </div>
+            <div >
+              <p>SAR. 45.00</p>
+            
+            </div>
+           
+          </div>
+
+          <div class="ticket-total-div ticket-grand-total">
+            <div>
+                <p>Total</p>
+
+            </div>
+            <div >
+              <p class="ticket-grand-total-amount">SAR. 45.00</p>
+            
+            </div>
+           
+          </div>
+
+         </div>
+        </div>
+        <div class="register-btn">
+          <a href="index.html"><button class="primary-btn"><span class="text">Logout</span><span>Logout</span></button></a>
+          <a href="select-ticket.html"><button class="secondary-btn">Add More</button></a>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="footer">
+    <h6>Embrace the rhythm of harmony, fueled by excitement and joy, <br> Harmonious Kerala is here! Get ready for an unforgettable event!</h6>
+    <div class="social-icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+
+    <div class="footer-contact">
+        <a href="mailto:events@gulfmadhyamam.net">
+        <h6>events@gulfmadhyamam.net</h6>
+      </a>
+      <div class="footer-cont-number">
+        <a href="tel:+966559280320">
+          <h5>+966559280320</h5>
+        </a>
+        <a href="tel:+966504507422">
+          <h5>+966504507422</h5>
+        </a>
+    </div>
+
+    <hr class="footer-line">
+    
+    <div class="terms-div">
+      <ul>
+        <li><a href="">© 2024 Harmonious Kerala. All right reserved.</a></li>
+       <li><a href="privacy-policy.html">Privacy Policy</a></li>
+         <li><a href="terms-and-condition.html">Terms of Service</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/font-awsome.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.4.0/build/js/intlTelInput.js"></script>
+
+
+ 
+  
+
+
+  <script>
+    AOS.init();
+  </script>
+
+
+<script>
+  // Array of input element IDs
+  const phoneInputIds = ["phone"];
+
+  phoneInputIds.forEach(id => {
+    const input = document.querySelector(`#${id}`);
+    const iti = window.intlTelInput(input, {
+      initialCountry: "sa",
+      separateDialCode: true,
+      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+      autoPlaceholder: "off"
+    });
+
+    // Update placeholder dynamically on country change
+    input.addEventListener("countrychange", () => {
+      input.placeholder = "Enter your mobile number"; // Custom static placeholder
+    });
+  });
+</script>
+
+
+
+
+<script>
+
+  
+  // Alert Modal Type
+  $(document).on('click', '#success', function(e) {
+			swal(
+				'Downloaded Successfully',
+				'<b style="color:green;"></b>',
+				'success'
+			)
+		});
+
+	// Alert With Input Type
+		$(document).on('click', '#subscribe', function(e) {
+			swal({
+			  title: 'Submit email to subscribe',
+			  input: 'email',
+			  inputPlaceholder: 'Example@email.xxx',
+			  showCancelButton: true,
+			  confirmButtonText: 'Submit',
+			  showLoaderOnConfirm: true,
+			  preConfirm: (email) => {
+			    return new Promise((resolve) => {
+			      setTimeout(() => {
+			        if (email === 'example@email.com') {
+			          swal.showValidationError(
+			            'This email is already taken.'
+			          )
+			        }
+			        resolve()
+			      }, 2000)
+			    })
+			  },
+			  allowOutsideClick: false
+			}).then((result) => {
+			  if (result.value) {
+			    swal({
+			      type: 'success',
+			      title: 'Thank you for subscribe!',
+			      html: 'Submitted email: ' + result.value
+			    })
+			  }
+			})
+		});
+
+
+</script>
+
+
+</body>
+
+</html>
