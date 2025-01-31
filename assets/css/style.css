@@ -693,25 +693,30 @@ img {
 	margin: auto;
 	margin-bottom: 20px;
 }
-.marquee {
-	display: flex;
-	align-items: center;
+
+  
+  .marquee {
+	width: 100%;
 	overflow: hidden;
-	position: relative;
-	text-transform: uppercase;
 	white-space: nowrap;
-	z-index: 1;
+	position: relative;
+	background: black;
   }
   
-  .marquee span {
-	will-change: transform;
-	transform: translateX(100%);
-	animation: marquee 25s linear infinite;
-	font-size: 110px;
-	font-weight: 900;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #404040;
-	color: transparent;
+  .marquee-inner {
+	display: inline-block;
+	animation: marquee 20s linear infinite;
+	white-space: nowrap;
+  }
+  
+  .marquee-inner span {
+	display: inline-block;
+	padding: 0 10px;
+  }
+  
+  .marquee-inner img {
+	width: 300px; /* Set your image width */
+	height: auto;
   }
   
   @keyframes marquee {
@@ -722,6 +727,7 @@ img {
 	  transform: translateX(-100%);
 	}
   }
+  
 
 
 
@@ -1519,6 +1525,28 @@ img {
     position: relative;
     text-align: center;
 	margin-top: 60px;
+	width: fit-content;
+	margin: 60px auto 0px;
+}
+
+.ticket-head::after{
+	position: absolute;
+    top: 17px;
+    left: -49px;
+    content: "";
+    height: 1px;
+    width: 30px;
+    background: var(--primary-color);
+}
+
+.ticket-head::before{
+	position: absolute;
+	top: 17px;
+	right: -49px;
+	content: "";
+	height: 1px;
+	width: 30px;
+	background: var(--primary-color);
 }
 
 
@@ -1664,6 +1692,7 @@ only screen and (min-resolution: 2dppx) {
 .summury-box {
 	background-color: #E6E6E6;
 	padding: 20px;
+	text-align: center;
 }
 
 .summury-box h4 {
@@ -2461,9 +2490,6 @@ body .modal-open {
 	margin-bottom: 5px;
 }
 
-.succes-modal-cntnt{
-	overflow-y: scroll;
-}
 
 .table-row .secondary-btn svg {
 	margin-left: 0px !important;
@@ -2809,8 +2835,8 @@ body .modal-open {
 	.header {
 		flex-direction: column;
 		gap: 10px;
-		align-items: self-start;
-		justify-content: start;
+		align-items: center;
+		justify-content: center;
 		width: 100%;
 	}
 	.banner{
@@ -2820,6 +2846,9 @@ body .modal-open {
 	
 	.tickt-descp{
 		text-align: center;
+	}
+	.coming-dammam-cntnt p{
+		width: 100%;
 	}
 
 }
@@ -2863,9 +2892,6 @@ body .modal-open {
 		height: 400px;
 	}
 
-	.harmounios-img {
-		height: 330px;
-	}
 
 	.media-img img {
 		width: 120px;
